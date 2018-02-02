@@ -1,6 +1,6 @@
-# nodeJS API EXAMPLE
+# NodeJS API EXAMPLE
 
-## Importants Commmands:
+## Commands:
 
 `npm install`
 `npm install -g sequelize-cli`
