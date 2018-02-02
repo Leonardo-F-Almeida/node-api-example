@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "root",
+    "password": "abc123",
+    "database": "dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "jwtSecret": "2%8i93lslkaOP#$x8",
+    "jwtSession" : { "session": false }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "jwtSecret": "2%8i93lslkaOP#$x8",
+    "jwtSession" : { "session": false }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "jwtSecret": "2%8i93lslkaOP#$x8",
+    "jwtSession" : { "session": false }
+  }
+}
